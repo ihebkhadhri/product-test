@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "price": 300,
+      "quantity": 100,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "printer",
+      "price": 100,
+      "quantity": 700,
+      "selected": true,
+      "available": false
+    },
+    {
+      "id": 3,
+      "name": "camera",
+      "price": 20,
+      "quantity": 40,
+      "selected": false,
+      "available": true
+    },
+    {
+      "name": "frigo",
+      "price": 0,
+      "quantity": 0,
+      "selected": true,
+      "available": true,
+      "id": 4
+    },
+    {
+      "name": "cover_page_black.tex",
+      "price": "gg",
+      "quantity": "f",
+      "selected": true,
+      "available": true,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "iheb",
+      "price": "1",
+      "quantity": "1",
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 7,
+      "name": "lol",
+      "price": 0,
+      "quantity": 0,
+      "selected": false,
+      "available": true
+    },
+    {
+      "name": "44444",
+      "price": 0,
+      "quantity": 0,
+      "selected": true,
+      "available": false,
+      "id": 8
+    }
+  ]
+}

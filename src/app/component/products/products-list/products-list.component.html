@@ -1,0 +1,36 @@
+<div class="container" *ngIf="productsInput$">
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Quabtity</th>
+      <th>Selected</th>
+      <th>Available</th>
+    </tr>
+    <tr *ngFor="let p of productsInput$">
+      <td>{{p.id}}</td>
+      <td>{{p.name}}</td>
+      <td>{{p.price}}</td>
+      <td>{{p.quantity}}</td>
+      <td>{{p.selected}}</td>
+      <td>{{p.available}}</td>
+      <td><button (click)="onSelect(p)" [ngClass]="p.selected?'btn-success':'btn-danger'">
+      <span *ngIf="p.selected">Unselected</span>
+      <span *ngIf="!p.selected">Selected</span>
+    </button>
+    </td>
+    <td>
+      <button class="btn btn-danger" (click)="onDelete(p)">
+        <span class="fa fa-trash-o"></span>
+      </button>
+    </td>
+    <td>
+      <button class="btn btn-danger" (click)="onEdit(p)">
+        <span class="fa fa-edit"></span>
+      </button>
+    </td>
+    </tr>
+  </table>
+
+</div>
